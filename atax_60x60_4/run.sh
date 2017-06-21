@@ -6,7 +6,7 @@
 ##          NTU                           ##
 ##                                        ##
 ## Notes  : Single Script File To Run     ##
-##	    ROSE Compiler for kernels.        ##
+##      ROSE Compiler for kernels.        ##
 ##                                        ##
 ############################################
 ############################################
