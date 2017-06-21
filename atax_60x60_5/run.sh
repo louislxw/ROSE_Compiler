@@ -2,12 +2,12 @@
 
 ############################################
 ############################################
-## Author : Louis Li              	  	  ##
-##          NTU                 	  	  ##
-##				          				  ##
+## Author : Louis Li                      ##
+##          NTU                           ##
+##				                                ##
 ## Notes  : Single Script File To Run     ##
-##	    ROSE Compiler for kernels.	  	  ##
-##					  					  ##
+##      ROSE Compiler for kernels.        ##
+##                                        ##
 ############################################
 ############################################
 
@@ -62,7 +62,7 @@ cp rose_test8.c test9.c
 
 cp rose_test9.c test10.c
 
-#step 10: loop tiling for i in factor of 12
+#step 10: loop tiling for j in factor of 12
 /home/demo/build-rose/tests/nonsmoke/functional/roseTests/astInterfaceTests/loopTiling -c test10.c -rose:loopTiling:abstract_handle "ForStatement<numbering,6>" -rose:loopTiling:depth 2 -rose:loopTiling:tilesize 12
 
 cp rose_test10.c test11.c
